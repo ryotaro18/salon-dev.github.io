@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./css/test.css">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+<body>
+    <header class="sticky-top">
+        <div class="container">
+            <div class="dropdown">
+                <!-- 切替ボタンの設定 -->
+                <button type="button" class="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- ドロップメニューの設定 -->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Home</a>
+                  <a class="dropdown-item" href="#">Blog</a>
+                  <a class="dropdown-item" href="#">Movie</a>
+                  <a class="dropdown-item" href="#">Reservation</a>
+                  <a class="dropdown-item" href="#">Access</a>
+                  
+                </div><!-- /.dropdown-menu -->
+              </div><!-- /.dropdown -->
+        </div>
+    </header>
+
+    
+    <div id="slides" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="container">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="3000">
+                    <img class="img-fluid" src="./img/top1.webp" alt="">
+                </div> 
+                <div class="carousel-item" data-interval="3000">
+                    <img class="img-fluid" src="./img/top2.webp" alt="">
+                </div>
+                <div class="carousel-item"  data-interval="3000">
+                    <img class="img-fluid" src="./img/top3.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <div class="navigation sticky-top ">
+        <div class="container">
+            <div class="header-menu">
+                <ul class="nav nav-tabs justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Movie</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Access</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="style-wrapper">
+        <div class="container">
+            <h3>STYLES</h3>
+            <div class="styles mt-3">
+                <div class="row">
+                    <div class="style-box col-lg-3 col-sm-6">
+                        <img src="./img/style.jpg" alt="">
+                        <h5>Style Name</h5>
+                        <p>あいうえおかきくけこさしすせそたちつてと
+                            なにぬねのはひふへほまみむめもやゆよわをん</p>
+                    </div>
+                    <div class="style-box col-lg-3 col-sm-6">
+                        <img src="./img/style.jpg" alt="">
+                        <h5>Style Name</h5>
+                        <p>あいうえおかきくけこさしすせそたちつてと
+                            なにぬねのはひふへほまみむめもやゆよわをん</p>
+                    </div>
+                    <div class="style-box col-lg-3 col-sm-6">
+                        <img src="./img/style.jpg" alt="">
+                        <h5>Style Name</h5>
+                        <p>あいうえおかきくけこさしすせそたちつてと
+                            なにぬねのはひふへほまみむめもやゆよわをん</p>
+                    </div>
+                    <div class="style-box col-lg-3 col-sm-6">
+                        <img src="./img/style.jpg" alt="">
+                        <h5>Style Name</h5>
+                        <p>あいうえおかきくけこさしすせそたちつてと
+                            なにぬねのはひふへほまみむめもやゆよわをん</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-wrapper">
+        <div class="container">
+            <h3>MENU</h3>
+            <div class="row menu-row">
+                <div class="menu-price col-sm-6">
+                    <h4>Cut/カット</h4>
+                    <div class="price-wrapper">
+                        <p class="menu-name">一般カット</p>
+                        <p class="menu-pricep">￥4500</p>
+                    </div>
+                    <div class="price-wrapper">
+                        <p class="menu-name">学生カット</p>
+                        <p class="menu-pricep">￥4000</p>
+                    </div>
+                    <div class="price-wrapper">
+                        <p class="menu-name">前髪カット</p>
+                        <p class="menu-pricep">￥1000</p>
+                    </div>
+                </div>
+                <div class="menu-price col-sm-6">
+                    <h4>Color/カラー</h4>
+                    <div class="price-wrapper">
+                        <div class="price-wrapper">
+                            <p class="menu-name">カラー</p>
+                            <p class="menu-pricep">￥4500</p>
+                        </div>
+                        <div class="price-wrapper">
+                            <p class="menu-name">ブリーチカラー</p>
+                            <p class="menu-pricep">￥6500</p>
+                        </div>
+                        <div class="price-wrapper">
+                            <p class="menu-name">カットカラー</p>
+                            <p class="menu-pricep">￥8000</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menu-price col-sm-6">
+                        <h4>Perm/パーマ</h4>
+                        <div class="price-wrapper">
+                            <p class="menu-name">ナチュラルパーマ</p>
+                            <p class="menu-pricep">￥10000</p>
+                        </div>
+                        <div class="price-wrapper">
+                            <p class="menu-name">スパイラルパーマ</p>
+                            <p class="menu-pricep">￥11000</p>
+                        </div>
+                    </div>
+                    <div class="menu-price col-sm-6">
+                        <h4>Other/その他</h4>
+                        <div class="price-wrapper">
+                            <p class="menu-name">ダメージ補修トリートメント</p>
+                            <p class="menu-pricep">￥1500</p>
+                        </div>
+                        <div class="price-wrapper">
+                            <p class="menu-name">ヘッドスパ</p>
+                            <p class="menu-pricep">￥1500</p>
+                        </div>
+                        <div class="price-wrapper">
+                            <p class="menu-name">セットのみ</p>
+                            <p class="menu-pricep">￥1000</p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+        <div class="stylist-wrapper">
+            <div class="container">
+                <h3>STYLIST</h3>
+                <div class="row">
+                    <div class="card-wrapper col-md-6">
+                        <div class="card card1">
+                            <img src="./img/stylist1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Taro Yamada</h5>
+                              <p class="card-text">We will do a careful hearing so that it approaches the hairstyle you want.
+                                I am confident in my skills.</p>
+                              <a href="#" class="btn btn-primary">予約</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrapper col-md-6">
+                        <div class="card card2">
+                            <img src="./img/stylist1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Taro Yamada</h5>
+                              <p class="card-text">We will do a careful hearing so that it approaches the hairstyle you want.
+                                I am confident in my skills.</p>
+                              <a href="#" class="btn btn-primary">予約</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrapper col-md-6">
+                        <div class="card card3">
+                            <img src="./img/stylist1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Taro Yamada</h5>
+                              <p class="card-text">We will do a careful hearing so that it approaches the hairstyle you want.
+                                I am confident in my skills.</p>
+                              <a href="#" class="btn btn-primary">予約</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrapper col-md-6">
+                        <div class="card card4">
+                            <img src="./img/stylist1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Taro Yamada</h5>
+                              <p class="card-text">We will do a careful hearing so that it approaches the hairstyle you want.
+                                I am confident in my skills.</p>
+                              <a href="#" class="btn btn-primary">予約</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                    <div class="about-wrapper">
+                        <div class="container">
+                            <h3>ACCESS</h3>
+                                 <div class="access-wrapper">
+                                    <p>住所：〇〇市〇〇区000-000  〇〇ビル3階</p>
+                                    <p>〇〇駅から徒歩8分</p>
+                                    <p>〇〇バス停から徒歩5分</p>
+                                                                     
+                                </div>
+                        </div>
+                    </div>
+                
+
+        <footer>
+            <div class="container">
+                <p class="my-1">copyright. 〇〇salon.com</p>
+            </div>
+        </footer>
+
+
+        
+
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
