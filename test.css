@@ -1,0 +1,147 @@
+body{
+    background-image: url(../img/bg.png);
+    color: #4d322a;
+    text-align: center;
+    margin: auto;
+}
+
+.container{
+    margin: auto;
+    max-width: 100%;
+}
+
+h3{
+    margin:80px 0 ;
+}
+
+/*スマホ用のヘッダー*/
+header{
+    text-align: right;
+    line-height: 42px;
+    display: none;
+}
+
+.fa-bars{
+    font-size: 42px;
+}
+
+.btn:focus, .btn.focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+/*一番上の画像*/
+
+.carousel{
+    margin: 30px auto;
+}
+.carousel-item img{
+    height: 600px;
+    width: 1200px;
+}
+
+/*navigation*/
+.header-menu{
+    background-color: rgba(0,0, 0, 0.3);
+}
+
+.header-menu a{
+    color: white;
+}
+
+/*ヘアスタイル*/
+.style-wrapper h5{
+    margin: 10px 0;
+}
+
+.style-wrapper p{
+    width: 220px;
+    margin: auto;
+}
+
+.style-wrapper img{
+    height: 280px;
+    width: 220px;
+}
+
+.style-box{
+    margin-bottom: 40px;
+}
+
+/*メニュー*/
+.menu-price h4{
+    margin: 40px 0;
+}
+
+
+
+/*スタイリスト*/
+.card{
+    width: 60%;
+    margin: auto;
+}
+
+.card1, .card2{
+    margin-bottom: 60px;
+}
+
+.card-img-top{
+    background-size: cover;
+}
+
+/*アクセス*/
+.about-wrapper h3{
+    margin-bottom: 20px;
+}
+
+
+/*フッター*/
+footer{
+    margin-top: 30px;
+}
+
+footer p{
+    border-top:1px solid #4d322a ;
+    padding: 10px 0 5px 0;
+}
+
+
+
+
+/*レスポンシブデザイン*/
+@media all and (max-width: 1000px){
+    
+}
+
+@media all and (max-width: 768px){
+    .card3{
+        margin-bottom: 60px;
+    }
+
+    .card{
+        width: 70%;
+    }
+}
+
+.carousel img{
+    height: 300px;
+}
+
+@media all and (max-width: 670px){
+ header{
+        display: block;
+}
+
+.navigation{
+    display: none;
+}
+
+.carousel{
+    margin-top: 0;
+}
+
+@media all and (max-width:464px){
+    .card{
+        width: 75%;
+    }
+}
+}
